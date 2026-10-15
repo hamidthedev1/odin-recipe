@@ -1,0 +1,41 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+/* Home Page Styles */
+.main-container {
+   width: 400px;
+   margin: 0 auto;
+   padding: 10px;
+}
+.main-container h1{
+    text-align: center;
+    font-size: 48px;
+}
+.main-container ul {
+    display: inline-block;
+    list-style: none;
+  }
+
+  .main-container ul li {
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid blue;
+    margin: 10px;
+    border-radius: 15px 5px;
+  }
+
+  .main-container ul:first-child{
+    margin-top: 0;
+  }
+
+  .main-container ul li  a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.522);
+  }
+
+  .main-container ul li a:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.937);
+  }
+
