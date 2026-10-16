@@ -39,3 +39,29 @@ body {
     color: rgba(0, 0, 0, 0.937);
   }
 
+  /* Recipes Page Styles */
+  .recipe-container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .recipe-container h1{
+    text-align: center;
+    font-size: 36px;
+  }
+  .recipe-container img{
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .home-link {
+    width: 50px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    background-color: blue;
+  }
+  .home-link a {
+    text-decoration: none;
+    color: white;
+    
+  }
